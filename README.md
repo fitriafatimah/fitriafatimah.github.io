@@ -53,6 +53,51 @@ Edit file `js/data.js` untuk mengubah semua konten portfolio:
 - Projects
 - Contact
 
+## 🚀 Deploy ke GitHub Pages
+
+### Deploy Otomatis
+
+Setelah mengubah data, deploy dengan satu command:
+
+```bash
+yarn deploy
+```
+
+Atau dengan commit message custom:
+
+```bash
+yarn deploy "Update portfolio - add new projects"
+```
+
+**Cara kerja:**
+1. Otomatis add semua perubahan
+2. Commit dengan message
+3. Push ke GitHub
+4. GitHub Pages akan otomatis update dalam 1-5 menit
+
+### Setup Awal (Hanya Sekali)
+
+Jika belum setup git repository:
+
+```bash
+# 1. Inisialisasi git
+git init
+
+# 2. Tambahkan remote repository
+git remote add origin https://github.com/USERNAME/REPO-NAME.git
+
+# 3. Commit pertama
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git push -u origin main
+
+# 4. Aktifkan GitHub Pages
+# Buka repository → Settings → Pages → Pilih branch main
+```
+
+Setelah setup awal, cukup gunakan `yarn deploy` untuk update!
+
 ## 🌐 Deploy ke GitHub Pages
 
 ### Cara 1: Manual Deploy

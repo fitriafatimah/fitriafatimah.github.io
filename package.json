@@ -4,11 +4,11 @@
   "description": "Personal Portfolio with Hot Reload",
   "scripts": {
     "dev": "node server.js",
-    "start": "node server.js"
+    "start": "node server.js",
+    "deploy": "node scripts/deploy.js"
   },
   "dependencies": {
     "express": "^4.18.2",
     "chokidar": "^3.5.3"
   }
 }
-
