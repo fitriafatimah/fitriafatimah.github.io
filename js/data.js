@@ -5,7 +5,7 @@ const portfolioData = {
   // Site Info
   site: {
     title: "Fitria Fatimah - Fashion Designer Portfolio",
-    brandName: "Fitria Fatimah",
+    brandName: "Fitria Fatimahs",
   },
 
   // Navigation
@@ -25,7 +25,7 @@ const portfolioData = {
   // Header/Hero Section
   header: {
     prefix: "I'm",
-    name: "Fitria Fatimah",
+    name: "Fitria Fatimahs",
     typedText: [
       "Fashion Designer",
       "Fashion Stylist",
